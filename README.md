@@ -24,3 +24,13 @@ Users of the system:
 * Non registered can have a overview of these facilities excluding some.
 * Feedback or complaint facilities directly connected to government bodies to keep a view on the market .but mentioning the unique id of the complainer
 * Admin should be able to see all record from any users.
+* The records shown for selling should be available in a format of Quantity name,
+Quantity available, price
+* The database should be robust enough to handle all the online transactions which
+will be happening
+* Website will be available in regional languages
+* People will have facility of viewing the price difference between different regions
+and the inflation rate also.
+* Person have facility of booking vegetables for commercial use on a large scale
+online through bigger marketers
+* Help section for those who are unable to understand the website or any of its part.
