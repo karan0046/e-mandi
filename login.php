@@ -25,7 +25,7 @@ if(isset($_POST['username'])){
 
     if($row == 1){
         //echo '<script>alert("succesfully logged in")</script>';
-        echo "<script> window.location.assign('watch.html'); </script>";
+        echo "<script> window.location.assign('start.html'); </script>";
         //header('Location: login.html');
         mysqli_free_result($result);
         mysqli_close($mysqli);
