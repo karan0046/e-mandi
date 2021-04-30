@@ -410,9 +410,7 @@ border-radius: 30px;
 
   margin-top: 50px;
   background-color: #d4f3ef;
-	-moz-box-shadow: -4px 4px 19px 7px #9fb4f2;
-	-webkit-box-shadow: -4px 4px 19px 7px #9fb4f2;
-	box-shadow: -4px 4px 19px 7px #9fb4f2;
+	
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e) );
 	background:-moz-linear-gradient( center top, #7892c2 5%, #476e9e 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e');
@@ -876,7 +874,25 @@ width:140px;
 .brand_img-box.item-40 {
   background-image: url(../images/retailer5.jpg);
 }
+.brand_img-box.item-41 {
+  background-image: url(../images/farmh.jpg);
+}
 
+.brand_img-box.item-42{
+  background-image: url(../images/farmh1.jpg);
+}
+
+.brand_img-box.item-43{
+  background-image: url(../images/farmh2.jpg);
+}
+
+.brand_img-box.item-44{
+  background-image: url(../images/farmh3.jpg);
+}
+
+.brand_img-box.item-45 {
+  background-image: url(../images/farmh4.jpg);
+}
 
 .brand_img-box {
   display: -webkit-box;
