@@ -54,7 +54,7 @@
                      <div class="input-group">
                             <label class="label">Name</label>
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <input class="input--style-4" type="text" name="name">
+                                <input class="input--style-4" type="text" name="name" Required>
                                 <div class="select-dropdown"></div>
                             </div>
                         </div>
@@ -62,21 +62,21 @@
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">Username</label>
-                                    <input class="input--style-4" type="text" name="username">
+                                    <input class="input--style-4" type="text" name="username" Required>
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">password</label>
-                                    <input class="input--style-4" type="password" name="password">
+                                    <input class="input--style-4" type="password" name="password" Required>
                                 </div>
                             </div>
                         </div>
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">Aadhar / license No.</label>
-                                    <input class="input--style-4" type="text" name="aadhar_no">
+                                    <label class="label">Aadhar Number</label>
+                                    <input class="input--style-4" type="text" name="aadhar_no" Required>
                                 </div>
                             </div>
                             <div class="col-2">
@@ -119,8 +119,8 @@
                         <div class="input-group">
                             <label class="label">role</label>
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="role">
-                                    <option disabled="disabled" selected="selected">Choose option</option>
+                                <select name="role" Required>
+                                    <option disabled="disabled" selected="selected" >Choose option</option>
                                     <option value = "1">Civilian</option>
                                     <option value = "2">Farmer</option>
                                     <option value = "3">Retailler</option>
