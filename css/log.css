@@ -80,7 +80,7 @@
     border-radius: 40px;
 }
 .room:hover{
-  box-shadow: 5px 5px 18px  #777676;
+  box-shadow: 5px 5px 20px  rgb(80, 79, 79);
 }
 .row{
   height: 100%;
@@ -88,9 +88,25 @@
 .rol{
   height: 202px;
   width: 100%;
-  background-image: linear-gradient( rgb(0, 255, 191), rgb(0, 195, 255));
+ 
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
+}
+.rol.a1{
+  background-image: url(../images/civilian.jpeg);
+  background-size: cover;
+}
+.rol.a2{
+  background-image: url(../images/farmingindia_505_122818030205.jpg);
+  background-size: cover;
+}
+.rol.a3{
+  background-image: url(../images/retailer.jpg);
+  background-size: cover;
+}
+.rol.a4{
+  background-image: url(../images/wholeseller.jpg);
+  background-size: cover;
 }
 .r1{
     float: left;
@@ -120,6 +136,7 @@ h2{
   text-align: center;
   padding: 5px;
   font-size: 50px;
+  color: rgb(234, 241, 241);
   
 }
 h3{
@@ -128,6 +145,11 @@ h3{
   font-size: 50px;
   background-image: linear-gradient( rgb(0, 153, 255), rgb(0, 195, 255));
   
+}
+.sub_page.s1{
+  background-image: url(../images/sabzi-mandi.jpg);
+  background-attachment: fixed;
+  background-size: cover;
 }
 @media screen and (max-width:1520px) {
   .room{
