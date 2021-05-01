@@ -28,9 +28,4 @@ Users of the system:
 Quantity available, price
 * The database should be robust enough to handle all the online transactions which
 will be happening
-* Website will be available in regional languages
-* People will have facility of viewing the price difference between different regions
-and the inflation rate also.
-* Person have facility of booking vegetables for commercial use on a large scale
-online through bigger marketers
 * Help section for those who are unable to understand the website or any of its part.
