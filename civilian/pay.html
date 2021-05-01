@@ -17,50 +17,45 @@
     <h1>Credit/Debit card Payment Gateway</h1>
 </div>
 <div class="left">
-    <form action="pay.php" method="POST">
+    <form action="pay.php"  method = "post">
       
-       
-
-        <input type="radio" id="type1" name="card1" >
+        <input type="radio" id="type1" name="card" value = "maestro">
         <label for="type1"><img src="../images/maestro.jpg" alt="Digital India" width="150px" height="80px"  ></label><br>
-        <input type="radio" id="type2" name="card2" >
+        <input type="radio" id="type2" name="card" value = "master card">
         <label for="type1"><img src="../images/mastercard.jpg" alt="Digital India" width="150px" height="80px"  ></label><br>
-        <input type="radio" id="type3" name="card3" >
+        <input type="radio" id="type3" name="card" value = "paypal" >
         <label for="type1"><img src="../images/paypal.png" alt="Digital India" width="150px" height="80px"  ></label><br>
-        <input type="radio" id="type4" name="card4" >
+        <input type="radio" id="type4" name="card" value = "rupay" >
         <label for="type1"><img src="../images/rupay.png" alt="Digital India" width="150px" height="80px"  ></label><br>
-        <input type="radio" id="type5" name="card5" >
+        <input type="radio" id="type5" name="card" value = "visa">
         <label for="type1"><img src="../images/visa.jpg" alt="Digital India" width="150px" height="80px"  ></label><br>
-
-    </form>
+    
 
 </div>
 <div class="right">
     
-
-        <form action="pay.php" method="POST">
-            <select id="bank1" name="bank1" >
-
+        <!--<form action="pay.php" method = "post">-->
+            <select id="bank1" name="bank" >
                 <option value="dem">Select your Bank name</option>
-                <option value="sbi">State Bank of India</option>
-                <option value="hdfc">HDFC Bank</option>
-                <option value="BoB">Bank of Baroda</option>
-                <option value="PNB">Punjab National Bank</option>
-                <option value="icici">ICICI Bank</option>
-                <option value="other">Other Bank</option>
+                <option value="State Bank of India">State Bank of India</option>
+                <option value="HDFC Bank">HDFC Bank</option>
+                <option value="Bank of Baroda">Bank of Baroda</option>
+                <option value="Punjab National Bank">Punjab National Bank</option>
+                <option value="ICICI Bank">ICICI Bank</option>
+                <option value="Other Bank">Other Bank</option>
               </select>
            
-            <input type="text" id="cardn" name="cardn" placeholder="CARD NUMBER">
+            <input type="text" id="lname" name="lastname" placeholder="CARD NUMBER" required>
           
            
-            <input type="month" id="month" name="month" > <label for="month">CARD EXPIRY</label>
-            <input  type="text" id="cvv" name="cvv" placeholder="CVV Number">
-            <input type="text" id="name" name="name" placeholder="CARD HOLDER NAME">
-            <input type="text" id="rs" name="rs" placeholder="Payment Amount">
+            <input type="month" id="month" name="month" placeholder="CARD EXPIRY" required>
+            <input  type="text" id="cvv" name="cvv" placeholder="CVV Number" required>
+            <input type="text" id="fname" name="firstname" placeholder="CARD HOLDER NAME" required>
+            <input type="text" id="rs" name="rs" placeholder="Payment Amount" required>
             
           
         
-          <input type="submit" name="submit"value="Pay">
+          <input type="submit" value="Pay">
 
         </form>
       </div>
