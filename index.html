@@ -695,18 +695,18 @@
        CONTACT US
     </h2>
     <div class="container mt-5 pt-5">
-      <form action="">
+      <form action="contact.php" method = "post">
         <div>
-          <input type="text" placeholder="NAME">
+          <input type="text" name = "name" placeholder="NAME" required>
         </div>
         <div>
-          <input type="email" placeholder="EMAIL">
+          <input type="number" name = "aadhar_no" placeholder="Aadhar Number" required>
         </div>
         <div>
-          <input type="text" placeholder="PHONE NUMBER">
+          <input type="number" name = "phone" placeholder="PHONE NUMBER" required>
         </div>
         <div>
-          <input type="text" class="message-box" placeholder="MESSAGE">
+          <input type="text" class="message-box" name = "message" placeholder="MESSAGE" required>
         </div>
         <div class="d-flex justify-content-center mt-5 pt-5">
           <button>
