@@ -13,7 +13,7 @@ $password="";
 $db="emandi";
 
 $mysqli =  mysqli_connect($host,$user,$password,$db);
-$sql="INSERT INTO `message` values ('".$rname."','".$ral."','".$rphone."','".$rmes."')";
+$sql="INSERT INTO `complaints` values ('".$rname."','".$ral."','".$rphone."','".$rmes."')";
 mysqli_query($mysqli,$sql);
 echo "<script> window.location.assign('index.html'); </script>";
 mysqli_close($mysqli);
