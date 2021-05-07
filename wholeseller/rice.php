@@ -58,7 +58,7 @@ mysqli_free_result($result);
 $insert="INSERT INTO `add_request` values ('".$ad."','".$name."','".$category."','".$item."','".$ph."','".$addr."','".$price."','".$quan."')";
 mysqli_query($mysqli,$insert);
 echo '<script>alert("Wait untill Admin reviews your request")</script>';
-echo "<script> window.location.assign('apple.html'); </script>";
+echo "<script> window.location.assign('start.html'); </script>";
 mysqli_close($mysqli);
 exit();
 
