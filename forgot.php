@@ -16,10 +16,10 @@ if(isset($_POST['username'])){
     $password=$_POST['password'];
     $rpass = $_POST['rpassword'];
     
-    $sql1="SELECT * FROM `civilian` where username='".$uname."' limit 1";
+    $sql1="SELECT * FROM `civilian` where aadhar_no='".$uname."' limit 1";
     $sql2="SELECT * FROM `farmer` where aadhar_no ='".$uname."' limit 1";
-    $sql3="SELECT * FROM `retailler` where username='".$uname."' limit 1";
-    $sql4="SELECT * FROM `wholeseller` where username='".$uname."' limit 1";
+    $sql3="SELECT * FROM `retailler` where aadhar_no='".$uname."' limit 1";
+    $sql4="SELECT * FROM `wholeseller` where aadhar_no='".$uname."' limit 1";
     
     $result1=mysqli_query($mysqli,$sql1);
     $result2=mysqli_query($mysqli,$sql2);
